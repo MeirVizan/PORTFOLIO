@@ -1,0 +1,50 @@
+
+.width-box{
+  width: 50%;
+}
+.progress-bar{
+  margin-bottom: 40px;
+  position: relative;
+  padding: 0 15px;
+  width: 100%;
+  .bar-title {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .bar-line {
+    height: 5px;
+    background: #E1F5FE;
+    position: relative;
+    &:after {
+      content: '';
+      opacity: .2;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      border-radius: 5px;
+    }
+  } .bar-data {
+    font-size: 14px;
+    line-height: 1.1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bar-fill {
+    width: 0;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background: #07cb79;
+    transition: 400ms ease-out 100ms;
+  }
+
+
+}
+@media only screen and (max-width: 480px) {
+   .width-box {
+     width: 100%;}
+ }
