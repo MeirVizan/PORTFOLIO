@@ -13,27 +13,30 @@ const general =  GeneralStore;
 
 const logos = [
  {
-        name: "Nodejs",
-        image: "https://miro.medium.com/max/2560/1*MuVcoMPyJcq8G4qf5s3HGQ.png",
+     name: "ReactJs",
+     image: "https://www.fullstackpython.com/img/logos/react.png",
 },{
-    name: "ReactJs",
-    image: "https://www.fullstackpython.com/img/logos/react.png",
+    name: "Nodejs",
+    image: "https://miro.medium.com/max/2560/1*MuVcoMPyJcq8G4qf5s3HGQ.png",
+},{
+    name:'Python',
+    image:'https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png'
+},{
+    name: "MySQL",
+    image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg'
 },{
     name: "mongodb",
     image: "https://internet-israel.com/wp-content/uploads/2014/09/mongodb-logo-1200x600.png",
 },{
-    name: "JQuery",
-    image: "https://upload.wikimedia.org/wikipedia/he/4/42/JQuery_logo.png"
-},
-{
-    name: "angular js",
-    image: "https://rscard.px-lab.com/html/img/uploads/logos/logo-angularjs.png",
+    name:'CRM',
+    image:'https://www.kanhasoft.com/assets/images/crm-solutions.png'
 },{
-    name: "SQL",
-    image: "https://i.pinimg.com/originals/db/76/72/db767259a291c24ce95816fac91fdd94.png",
+    name:'BI Developer',
+    image:'https://pbs.twimg.com/profile_images/1160848505654697986/KlDXb8Gk_400x400.jpg'
+
 },{
-    name: "C#",
-    image: "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
+    name:'Pixel Facebook',
+    image:'https://enquete-app.com/images/posts/facebook-pixel/timeline-fcb0def8.png'
 }
 ]
 

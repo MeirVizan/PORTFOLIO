@@ -27,7 +27,7 @@ const  HomeScreen  = () => {
         <AboutScreen/>
         <ClientsScreen/>
         {/* <SkillsScreen/> */}
-        <PortfolioScreen/>
+        {/* <PortfolioScreen/> */}
         <ExperienceScreen/>
         <EducationScreen/>
         {/* <TextSection/> */}

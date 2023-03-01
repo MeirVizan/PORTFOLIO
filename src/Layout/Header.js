@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import { useObserver } from "mobx-react-lite";
-import { Dehaze} from '@material-ui/icons';
-
+// import { Dehaze} from '@material-ui/icons';
+import DehazeIcon from '@mui/icons-material/Dehaze';
 
 import $ from 'jquery';
 
@@ -69,14 +69,15 @@ const  Header  = () => {
                     <ul className="nav desktop">
                         <li><a href="#about" data-to-link='about' className="link-scroll" >ABOUT<span></span></a></li>
                         {/* <li><a href="#skills" data-to-link='skills' className="link-scroll" >SKILLS<span></span></a></li> */}
-                        <li><a href="#portfolio" data-to-link='portfolio' className="link-scroll">PORTFOLIO<span></span></a></li>
+                        {/* <li><a href="#portfolio" data-to-link='portfolio' className="link-scroll">PORTFOLIO<span></span></a></li> */}
                         <li><a href="#experience" data-to-link='experience' className="link-scroll">EXPERIENCE<span></span></a></li>
+                        <li><a href="#education" data-to-link='education' className="link-scroll">EDUCATION<span></span></a></li> 
                         {/* <li><a href="#references" data-to-link='references' className="link-scroll">REFERENCES<span></span></a></li> */}
-                        <li><a href="#interests" data-to-link='interests' className="link-scroll">interests<span></span></a></li>
+                        <li><a href="#interests" data-to-link='interests' className="link-scroll">Hobbies<span></span></a></li>
                         {/* <li><a href="#contant" data-to-link='contant' className="link-scroll">CONTACT<span></span></a></li> */}
                     </ul>
                     <button className="toggleBtn" onClick={()=>general.onToggleNav()}>
-                        <Dehaze/>
+                        <DehazeIcon />
                     </button>
                 </div>
                 
@@ -85,10 +86,13 @@ const  Header  = () => {
             <ul className="nav mob">
                         <li><a href="#about" data-to-link='about' className="link-scroll" >ABOUT<span></span></a></li>
                         {/* <li><a href="#skills" data-to-link='skills' className="link-scroll">SKILLS<span></span></a></li> */}
-                        <li><a href="#portfolio" data-to-link='portfolio' className="link-scroll">PORTFOLIO<span></span></a></li>
+                        {/* <li><a href="#portfolio" data-to-link='portfolio' className="link-scroll">PORTFOLIO<span></span></a></li> */}
                         <li><a href="#experience" data-to-link='experience' className="link-scroll">EXPERIENCE<span></span></a></li>
+                        <li><a href="#education" data-to-link='education' className="link-scroll">EDUCATION<span></span></a></li> 
+
+                        {/* EducationScreen */}
                         {/* <li><a href="#references" data-to-link='references' className="link-scroll">REFERENCES<span></span></a></li> */}
-                        <li><a href="#interests" data-to-link='interests' className="link-scroll">interests<span></span></a></li>
+                        <li><a href="#interests" data-to-link='interests' className="link-scroll">Hobbies<span></span></a></li>
                         {/* <li><a href="#contant" data-to-link='contant' className="link-scroll">CONTACT<span></span></a></li> */}
             </ul>}
         </div>

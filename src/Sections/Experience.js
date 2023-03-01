@@ -11,10 +11,17 @@ import '../styles/experience.scss';
 
 const general =  GeneralStore;
 
-const listEducation = [
+const listExperience = [
+    {
+        name: "Cover",
+        subject: "Full Stack Developer ",
+        years:"2021 - 2023",
+        description: `Full responsibility for development of an organizational CRM platform to help sales 
+        agents, managers, customer support and analysts manage real-time business data`
+    },
     {
         name: "Bright Say",
-        subject: "React Developer ",
+        subject: "Full Stack Developer ",
         years:"2020 - ",
         description: `for a new web application startup in the field of team collaboration and group survey-building`
     },
@@ -44,7 +51,7 @@ const  ExperienceScreen  = () => {
         <div className="timeline">
             <div className="timeline-inner">
             <div className="timeline-bar"></div>    
-            {listEducation.map(item=>
+            {listExperience.map(item=>
                 <div className="timeline-box">
                    <span className="dot"></span>
                    <div className="timeline-box-inner">

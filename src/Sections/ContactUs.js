@@ -1,11 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useState,useEffect } from "react";
 import { useObserver } from "mobx-react-lite";
-import GoogleMapReact from 'google-map-react';
+import React from "react";
 
 
 
-import GeneralStore  from "../Stores/GeneralStore";
+import GeneralStore from "../Stores/GeneralStore";
 
 const general =  GeneralStore;
 

@@ -1,9 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState,useEffect } from "react";
 import { useObserver } from "mobx-react-lite";
-import { ShoppingCart, Flight, 
-    Theaters,SportsTennis,Pool, DirectionsRun,Restaurant,Code} from '@material-ui/icons';
+// import { ShoppingCart, Flight, 
+//     Theaters,SportsTennis,Pool, DirectionsRun,Restaurant,Code} from '@material-ui/icons';
 
+import CodeIcon from '@mui/icons-material/Code';
+import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import TravelExploreIcon from '@mui/icons-material/TravelExplore';
+import SportsGymnasticsIcon from '@mui/icons-material/SportsGymnastics';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import FlightIcon from '@mui/icons-material/Flight';
 
 import GeneralStore  from "../Stores/GeneralStore";
 
@@ -15,37 +21,35 @@ const MyInterests = () => {
     
     <section id="interests" className="section section-interests">
         <div className="animate-up animated">
-            <h2 className="section-title">My Interests</h2>
+            <h2 className="section-title">My Hobbies</h2>
             <div className="section-box">
                 <ul className="interests-list">
                     <li>
-                        <Code/>
+                        <CodeIcon/>
                         <span >Coding</span>
                     </li>
                     <li>
-                        <Theaters/>
-                        <span>Watch Movies</span>
+                        <CameraAltIcon/>
+
+                        <span>photography</span>
                     </li>
                     <li>
-                        <Restaurant/>
-                        <span>Restaurant</span>
+                        <TravelExploreIcon/>
+                        <span>Travel Explore</span>
                     </li>
                     <li>
-                        <ShoppingCart/>
-                        <span >Shopping</span>
+                        <SportsGymnasticsIcon/>
+                        <span >Sports</span>
                     </li>
                     <li>
-                        <SportsTennis/>
-                        <span>Playing Tennis</span>
+                        <MusicNoteIcon/>
+                        <span>Music</span>
                     </li>
                     <li>
-                        <Flight/>
+                        <FlightIcon/>
                         <span>Flight</span>
                     </li>
-                    <li>
-                        <Pool/>
-                        <span>Swimming</span>
-                    </li>
+                    
                 </ul>
             </div>
             </div>

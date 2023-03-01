@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useObserver } from "mobx-react-lite";
 import React, { useState,useEffect } from "react";
-import { FormatQuote} from '@material-ui/icons';
+// import { FormatQuote} from '@material-ui/icons';
 
 
 
@@ -56,7 +56,9 @@ const References = () => {
             <Slick nameClass="row list-references">   {listEducation.map(item=>
                         <div className="ref-box">
                         <div className="person-speech">
-                            <p><FormatQuote/>{item.speech}</p>
+                            {/* <p><FormatQuote/></p> */}
+                            <button>{item.speech}</button>
+
                         </div>
                         <div className="person-info clearfix">
                             <img className="person-img" src={item.image} alt="Headshot" />
